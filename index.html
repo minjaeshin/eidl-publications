@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EIDL Publications</title>
+<style>
+*{box-sizing:border-box} body{margin:0;background:#f6f7fb;font-family:Arial,sans-serif;color:#222}
+.pub-wrap{width:100%;padding:24px 28px;background:#f6f7fb}.pub-header{margin-bottom:22px}
+.pub-header h1{margin:0 0 8px;font-size:34px;color:#111827}.pub-desc{color:#667085;font-size:15px;line-height:1.6}
+.pub-controls{display:grid;grid-template-columns:1.5fr 1fr 1fr .85fr;gap:12px;margin-bottom:24px}
+.pub-controls input,.pub-controls select{width:100%;padding:12px 14px;border:1px solid #d0d5dd;border-radius:12px;font-size:14px;background:#fff;outline:none}
+.pub-controls input:focus,.pub-controls select:focus{border-color:#4f6f9f;box-shadow:0 0 0 3px rgba(79,111,159,.12)}
+.pub-section-title{font-size:21px;font-weight:800;margin:30px 0 14px;color:#111827}.pub-count{font-size:14px;color:#667085;margin-bottom:12px}
+.pub-paper{display:grid;grid-template-columns:220px 1fr;gap:20px;background:white;border:1px solid #e5e7eb;border-radius:18px;padding:18px;margin-bottom:16px;box-shadow:0 8px 24px rgba(0,0,0,.06);transition:transform .18s ease,box-shadow .18s ease}
+.pub-paper:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(15,23,42,.10)}
+.pub-thumb{width:100%;height:145px;border-radius:14px;object-fit:contain;object-position:center;background:#f8fafc;display:flex;align-items:center;justify-content:center;color:#4f6f9f;font-weight:800;text-align:center;border:1px solid #e5e7eb}
+.pub-title{font-size:18px;font-weight:800;line-height:1.35;margin-bottom:8px;color:#111827}.pub-no{font-weight:800;color:#111827;margin-right:4px}
+.pub-authors{font-size:14px;color:#344054;margin-bottom:5px;line-height:1.5}.pub-journal{font-size:14px;color:#667085;margin-bottom:12px}.pub-metric{color:#e74c2f;font-weight:800;font-style:italic}
+.pub-note{display:inline-flex;align-items:center;gap:8px;margin:0 0 12px;padding:6px 12px;border-radius:999px;background:#fff7ed;color:#9a3412;border:1px solid #fed7aa;font-size:13px;font-weight:700;line-height:1.45}
+.pub-note:before{content:"👑";font-size:13px;line-height:1}.pub-tag-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pub-tag{display:inline-block;padding:5px 10px;border-radius:999px;background:#eef3ff;color:#344e7a;font-size:12px;font-weight:700}.pub-year{background:#f2f4f7;color:#475467}
+.pub-keyword{display:inline-block;padding:4px 9px;border-radius:999px;background:#f8fafc;color:#64748b;border:1px solid #e5e7eb;font-size:12px;font-weight:600}
+.pub-link{display:inline-block;margin-top:12px;padding:8px 13px;border-radius:10px;background:#263b63;color:white;text-decoration:none;font-size:13px;font-weight:700}.pub-link:hover{background:#1c2d4d}
+.pub-empty,.pub-loading{background:white;border-radius:14px;padding:22px;color:#667085;text-align:center}.pub-empty{border:1px dashed #cbd5e1}.pub-loading{border:1px solid #e5e7eb}
+.pub-pagination{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:24px 0 4px}
+.pub-page-btn{border:1px solid #d0d5dd;background:white;color:#344054;padding:8px 12px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer}.pub-page-btn:hover{background:#eef3ff}.pub-page-btn.active{background:#263b63;color:white;border-color:#263b63}.pub-page-btn:disabled{opacity:.45;cursor:not-allowed}
+.pub-title strong,.pub-authors strong,.pub-journal strong{font-weight:800;color:#111827}.pub-title em,.pub-authors em,.pub-journal em{font-style:italic}
+@media(max-width:900px){.pub-controls{grid-template-columns:1fr 1fr}}@media(max-width:760px){.pub-wrap{padding:18px}.pub-header h1{font-size:26px}.pub-controls{grid-template-columns:1fr}.pub-paper{grid-template-columns:1fr!important}.pub-thumb{width:100%!important;height:170px!important}}
+</style>
+</head>
+<body>
+<div class="pub-wrap">
+  <div class="pub-header"><h1>Publications</h1><div class="pub-desc">Browse publications by research category, year, title, author, journal, and keywords.</div></div>
+  <div class="pub-controls">
+    <input id="pubSearchInput" type="text" placeholder="Search papers, authors, keywords...">
+    <select id="pubCategoryFilter"><option value="All">All Categories</option></select>
+    <select id="pubYearFilter"><option value="All">All Years</option></select>
+    <select id="pubPageSize"><option value="5">5 per page</option><option value="10" selected>10 per page</option><option value="15">15 per page</option><option value="20">20 per page</option></select>
+  </div>
+  <div id="pubSectionTitle" class="pub-section-title">All Publications</div>
+  <div id="pubCount" class="pub-count"></div>
+  <div id="pubPaperList" class="pub-loading">Loading publications...</div>
+  <div id="pubPagination" class="pub-pagination"></div>
+</div>
+<script>
+const CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ52AsUHnIixyHG6qb_e3jGWMV_JWv5t4KlsqDZAUJTBBUGDl8EYK_mck3zwJmfdTreZGyTFlxrcksJ/pub?gid=0&single=true&output=csv";
+const URL_PARAMS=new URLSearchParams(window.location.search);
+const INITIAL_AUTHOR=URL_PARAMS.get("author")||"";
+const INITIAL_MEMBER=URL_PARAMS.get("member")||"";
+const MEMBER_ALIASES={
+ "munseong-bae":{label:"Munseong Bae",aliases:["Munseong Bae","M. Bae"]},
+ "eunbi-jang":{label:"Eunbi Jang",aliases:["Eunbi Jang","E. Jang"]},
+ "minho-choi":{label:"Minho Choi",aliases:["Minho Choi","M. Choi"]},
+ "joonho-kang":{label:"Joonho Kang",aliases:["Joonho Kang","J. Kang"]},
+ "jaehyun-hong":{label:"Jaehyun Hong",aliases:["Jaehyun Hong","J. Hong"]},
+ "chihyun-kim":{label:"Chihyun Kim",aliases:["Chihyun Kim","C. Kim"]},
+ "haejun-chung":{label:"Haejun Chung",aliases:["Haejun Chung","H. Chung"]}
+};
+let papers=[],currentPage=1,pageSize=10,activeMemberKey="",activeMemberLabel="",activeMemberAliases=[];
+function parseCSV(text){text=text.replace(/^\uFEFF/,"");const rows=[];let row=[],cell="",q=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&q&&n=='"'){cell+='"';i++}else if(c=='"'){q=!q}else if(c==","&&!q){row.push(cell);cell=""}else if((c=="\n"||c=="\r")&&!q){if(c=="\r"&&n=="\n")i++;row.push(cell);rows.push(row);row=[];cell=""}else cell+=c}if(cell.length>0||row.length>0){row.push(cell);rows.push(row)}return rows}
+function csvToObjects(t){const rows=parseCSV(t.trim());if(!rows.length)return[];const h=rows[0].map(x=>String(x).trim());return rows.slice(1).filter(r=>r.some(c=>String(c||"").trim()!=="")).map(r=>{const o={};h.forEach((x,i)=>o[x]=r[i]?String(r[i]).trim():"");return o})}
+function parseList(v){return String(v||"").split(/[,;|]+/).map(x=>x.trim()).filter(Boolean)}
+function escapeHTML(v){return String(v||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+function formatInline(v){return escapeHTML(v).replace(/\[\[b\]\](.*?)\[\[\/b\]\]/g,"<strong>$1</strong>").replace(/\[\[i\]\](.*?)\[\[\/i\]\]/g,"<em>$1</em>").replace(/\[\[br\]\]/g,"<br>")}
+function formatJournalAuto(v){const t=escapeHTML(v),m=t.match(/(\(\s*IF\s*:[^)]+\))/i);if(m){const metric=m[1],main=t.replace(metric,"").trim();return `<strong><em>${main}</em></strong> <span class="pub-metric">${metric}</span>`}return `<strong><em>${t}</em></strong>`}
+function normalizeImageUrl(u){u=String(u||"").trim();const m=u.match(/drive\.google\.com\/file\/d\/([^/]+)/);return m?`https://drive.google.com/thumbnail?id=${m[1]}&sz=w800`:u}
+function applyInitialFilter(){const member=String(INITIAL_MEMBER||"").toLowerCase().trim(),author=String(INITIAL_AUTHOR||"").trim();activeMemberKey="";activeMemberLabel="";activeMemberAliases=[];if(member&&MEMBER_ALIASES[member]){activeMemberKey=member;activeMemberLabel=MEMBER_ALIASES[member].label;activeMemberAliases=MEMBER_ALIASES[member].aliases;return}if(author){activeMemberKey="custom-author";activeMemberLabel=author;activeMemberAliases=[author]}}
+function memberMatchesPaper(p){if(!activeMemberAliases.length)return true;const authors=String(p.Authors||"").toLowerCase();return activeMemberAliases.some(a=>authors.includes(String(a||"").toLowerCase()))}
+function makeFilters(){const c=document.getElementById("pubCategoryFilter"),y=document.getElementById("pubYearFilter");c.innerHTML=`<option value="All">All Categories</option>`;y.innerHTML=`<option value="All">All Years</option>`;[...new Set(papers.flatMap(p=>parseList(p.Category)))].sort().forEach(cat=>{const o=document.createElement("option");o.value=cat;o.textContent=cat;c.appendChild(o)});[...new Set(papers.map(p=>p.Year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a)).forEach(year=>{const o=document.createElement("option");o.value=year;o.textContent=year;y.appendChild(o)})}
+function getFiltered(){const keyword=document.getElementById("pubSearchInput").value.toLowerCase().trim(),category=document.getElementById("pubCategoryFilter").value,year=document.getElementById("pubYearFilter").value;return papers.filter(p=>{const cats=parseList(p.Category);const text=`${p.No||""} ${p.Title||""} ${p.Authors||""} ${p.Journal||""} ${p.Category||""} ${p.Keywords||""} ${p.Year||""} ${p.Note||""}`.toLowerCase();return memberMatchesPaper(p)&&(category==="All"||cats.includes(category))&&(year==="All"||String(p.Year)===String(year))&&text.includes(keyword)})}
+function getPaperNoNumber(v){const m=String(v||"").match(/\d+/);return m?Number(m[0]):-1}
+function sortSelectedFirst(list){return[...list].sort((a,b)=>{const n=getPaperNoNumber(b.No)-getPaperNoNumber(a.No);if(n)return n;const y=Number(b.Year)-Number(a.Year);if(y)return y;return String(a.Title||"").localeCompare(String(b.Title||""))})}
+function paperCard(p){const no=escapeHTML(p.No),title=formatInline(p.Title),authors=formatInline(p.Authors),journal=formatJournalAuto(p.Journal),note=formatInline(p.Note),year=escapeHTML(p.Year),link=escapeHTML(p.Link);const cats=parseList(p.Category),keys=parseList(p.Keywords),image=escapeHTML(normalizeImageUrl(p.Image));const imageHTML=image?`<img class="pub-thumb" src="${image}" alt="Publication image" loading="lazy" decoding="async" style="width:220px;height:145px;object-fit:contain;object-position:center;" onerror="this.outerHTML='<div class=&quot;pub-thumb&quot; style=&quot;width:220px; height:145px;&quot;>Publication<br>Image</div>';">`:`<div class="pub-thumb" style="width:220px;height:145px;">Publication<br>Image</div>`;return `<div class="pub-paper" style="grid-template-columns:220px 1fr;">${imageHTML}<div><div class="pub-title">${no?`<span class="pub-no">${no}</span> `:""}${title}</div><div class="pub-authors">${authors}</div><div class="pub-journal">${journal}</div>${note?`<div class="pub-note">${note}</div>`:""}<div class="pub-tag-row">${cats.map(c=>`<span class="pub-tag">${escapeHTML(c)}</span>`).join("")}${year?`<span class="pub-tag pub-year">${year}</span>`:""}</div>${keys.length?`<div class="pub-tag-row" style="margin-top:8px;">${keys.map(k=>`<span class="pub-keyword">${escapeHTML(k)}</span>`).join("")}</div>`:""}${link?`<a class="pub-link" href="${link}" target="_blank" rel="noopener noreferrer">View Paper</a>`:""}</div></div>`}
+function renderPagination(totalItems){const p=document.getElementById("pubPagination"),totalPages=Math.ceil(totalItems/pageSize);if(totalPages<=1){p.innerHTML="";return}let html=`<button class="pub-page-btn" ${currentPage===1?"disabled":""} data-page="${currentPage-1}">Prev</button>`;for(let i=1;i<=totalPages;i++)html+=`<button class="pub-page-btn ${i===currentPage?"active":""}" data-page="${i}">${i}</button>`;html+=`<button class="pub-page-btn" ${currentPage===totalPages?"disabled":""} data-page="${currentPage+1}">Next</button>`;p.innerHTML=html;p.querySelectorAll(".pub-page-btn").forEach(b=>b.addEventListener("click",()=>{const page=Number(b.dataset.page);if(!Number.isFinite(page))return;currentPage=page;render();document.querySelector(".pub-section-title").scrollIntoView({behavior:"smooth",block:"start"})}))}
+function render(){const filtered=sortSelectedFirst(getFiltered());const totalPages=Math.max(1,Math.ceil(filtered.length/pageSize));if(currentPage>totalPages)currentPage=totalPages;const start=(currentPage-1)*pageSize,pageItems=filtered.slice(start,start+pageSize);document.getElementById("pubPaperList").classList.remove("pub-loading");document.getElementById("pubSectionTitle").textContent=activeMemberLabel?`Publications by ${activeMemberLabel}`:"All Publications";document.getElementById("pubCount").textContent=`${filtered.length} publication(s) found${activeMemberLabel?` · Member: ${activeMemberLabel}`:""} · Page ${currentPage} of ${totalPages} · ${pageSize} per page`;document.getElementById("pubPaperList").innerHTML=pageItems.length?pageItems.map(paperCard).join(""):`<div class="pub-empty">No publications found.</div>`;renderPagination(filtered.length)}
+function resetPageAndRender(){currentPage=1;render()}
+async function loadPublications(){try{const res=await fetch(CSV_URL,{method:"GET",cache:"no-store"});if(!res.ok)throw new Error("CSV loading failed. Status: "+res.status);const csv=await res.text();papers=csvToObjects(csv).filter(p=>p.Title).sort((a,b)=>Number(b.Year)-Number(a.Year));applyInitialFilter();makeFilters();render()}catch(e){document.getElementById("pubPaperList").classList.remove("pub-loading");document.getElementById("pubPaperList").innerHTML=`<div class="pub-empty">CSV loading error.<br>${escapeHTML(e.message)}</div>`}}
+document.getElementById("pubSearchInput").addEventListener("input",resetPageAndRender);
+document.getElementById("pubCategoryFilter").addEventListener("change",resetPageAndRender);
+document.getElementById("pubYearFilter").addEventListener("change",resetPageAndRender);
+document.getElementById("pubPageSize").addEventListener("change",function(){pageSize=Number(this.value);resetPageAndRender()});
+loadPublications();
+</script>
+</body>
+</html>
