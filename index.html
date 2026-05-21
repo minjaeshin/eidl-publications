@@ -43,8 +43,8 @@
   <div id="pubPaperList" class="pub-loading">Loading publications...</div>
   <div id="pubPagination" class="pub-pagination"></div>
 </div>
+<script src="data.js"></script>
 <script>
-const CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ52AsUHnIixyHG6qb_e3jGWMV_JWv5t4KlsqDZAUJTBBUGDl8EYK_mck3zwJmfdTreZGyTFlxrcksJ/pub?gid=0&single=true&output=csv";
 const URL_PARAMS=new URLSearchParams(window.location.search);
 const INITIAL_AUTHOR=URL_PARAMS.get("author")||"";
 const INITIAL_MEMBER=URL_PARAMS.get("member")||"";
@@ -75,7 +75,7 @@ function paperCard(p){const no=escapeHTML(p.No),title=formatInline(p.Title),auth
 function renderPagination(totalItems){const p=document.getElementById("pubPagination"),totalPages=Math.ceil(totalItems/pageSize);if(totalPages<=1){p.innerHTML="";return}let html=`<button class="pub-page-btn" ${currentPage===1?"disabled":""} data-page="${currentPage-1}">Prev</button>`;for(let i=1;i<=totalPages;i++)html+=`<button class="pub-page-btn ${i===currentPage?"active":""}" data-page="${i}">${i}</button>`;html+=`<button class="pub-page-btn" ${currentPage===totalPages?"disabled":""} data-page="${currentPage+1}">Next</button>`;p.innerHTML=html;p.querySelectorAll(".pub-page-btn").forEach(b=>b.addEventListener("click",()=>{const page=Number(b.dataset.page);if(!Number.isFinite(page))return;currentPage=page;render();document.querySelector(".pub-section-title").scrollIntoView({behavior:"smooth",block:"start"})}))}
 function render(){const filtered=sortSelectedFirst(getFiltered());const totalPages=Math.max(1,Math.ceil(filtered.length/pageSize));if(currentPage>totalPages)currentPage=totalPages;const start=(currentPage-1)*pageSize,pageItems=filtered.slice(start,start+pageSize);document.getElementById("pubPaperList").classList.remove("pub-loading");document.getElementById("pubSectionTitle").textContent=activeMemberLabel?`Publications by ${activeMemberLabel}`:"All Publications";document.getElementById("pubCount").textContent=`${filtered.length} publication(s) found${activeMemberLabel?` · Member: ${activeMemberLabel}`:""} · Page ${currentPage} of ${totalPages} · ${pageSize} per page`;document.getElementById("pubPaperList").innerHTML=pageItems.length?pageItems.map(paperCard).join(""):`<div class="pub-empty">No publications found.</div>`;renderPagination(filtered.length)}
 function resetPageAndRender(){currentPage=1;render()}
-async function loadPublications(){try{const res=await fetch(CSV_URL,{method:"GET",cache:"no-store"});if(!res.ok)throw new Error("CSV loading failed. Status: "+res.status);const csv=await res.text();papers=csvToObjects(csv).filter(p=>p.Title).sort((a,b)=>Number(b.Year)-Number(a.Year));applyInitialFilter();makeFilters();render()}catch(e){document.getElementById("pubPaperList").classList.remove("pub-loading");document.getElementById("pubPaperList").innerHTML=`<div class="pub-empty">CSV loading error.<br>${escapeHTML(e.message)}</div>`}}
+function loadPublications(){try{if(!Array.isArray(window.PUBLICATIONS))throw new Error("data.js is not loaded or window.PUBLICATIONS is missing.");papers=window.PUBLICATIONS.filter(p=>p.Title).sort((a,b)=>Number(b.Year)-Number(a.Year));applyInitialFilter();makeFilters();render()}catch(e){document.getElementById("pubPaperList").classList.remove("pub-loading");document.getElementById("pubPaperList").innerHTML=`<div class="pub-empty">Data loading error.<br>${escapeHTML(e.message)}</div>`}}
 document.getElementById("pubSearchInput").addEventListener("input",resetPageAndRender);
 document.getElementById("pubCategoryFilter").addEventListener("change",resetPageAndRender);
 document.getElementById("pubYearFilter").addEventListener("change",resetPageAndRender);
