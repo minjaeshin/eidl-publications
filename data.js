@@ -406,31 +406,17 @@ window.PUBLICATIONS = [
     "Note": ""
   },
   {
-    "No": "[25]",
-    "Year": "2023",
-    "Category": "Integrated Photonics & Quantum",
-    "Keywords": "Thin-Film Lithium Niobate, Mode Converter, Photon-pair Generation, Freeform Photonics",
-    "Title": "Freeform Thin-Film Lithium Niobate Mode Converter for Photon-pair Generation",
-    "Authors": "C. Kim†, M. Bae†, M. Choi, S. Lee, M. Lee, H. Jung, H. Chung*, H. Kwon*",
-    "Journal": "Nanophotonics (2025) (IF:7.5)",
+    "No": "[27]",
+    "Year": "2025",
+    "Category": "AI & Computational Design",
+    "Keywords": "Neural Operator, Fourier Neural Operator, Surrogate Solver, Metasurface, Wavefront Shaping",
+    "Title": "Adjoint Method-based Fourier Neural Operator Surrogate Solver for Wavefront Shaping in Tunable Metasurfaces",
+    "Authors": "C. Kang†, J. Seo†, I. Jang, H. Chung*",
+    "Journal": "iScience (2025) (IF:6.107)",
     "Link": "",
-    "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUBdlAMQ8o0ntISnX16Fc0jh6nE1LlJy84q8fzgUtGronNsWJaXBq1_qkC8MHmb2UcYfhBw0IA5zeLR8K3lm1_QujovGt4UwGiuK91HEPPgpqs9B1lXtunwiQ3XRNR1Sbh9_AhvqghTfQOQVFaUUd0ySYsUdmD-eCe1oCVhIoj-waa8_ld4B7ldBSjbVhu1RFzb66rnGR3zMV5lFN1wLXRxzXhKWd56_gOvw%3Dw1280",
+    "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAJIy21Znbf_W7XaWv62LidUWw73927ACfOKoRRn9nc8Xel-h0M9phQ9NN7Sl2rv9sUplx5r4OnjuFcRIipU8b7_WSG779g-6nj_cQQzfjO_UJhdBGUXT_65W11qYhMdvGUvzfvyObmzx5GimJHBOZsQlr02NJLZdgUqkejJNEInwFXou6AK1Dx%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
-    "OldCategory": "Integrated Photonics",
-    "Note": ""
-  },
-  {
-    "No": "[24]",
-    "Year": "2024",
-    "Category": "Materials & Light-Matter Interaction",
-    "Keywords": "Chiral Nanophotonics, Helical Dichroism, Inverse Design",
-    "Title": "Inverse Design of Chiral Structures for Giant Helical Dichroism",
-    "Authors": "C.-C. Pan†, M. Bae†, H. Wang, J. Lim, R. R. Unnithan, J. Yang, H. Chung*, S. Kim*",
-    "Journal": "Nanoscale Horizons (2025) (IF:8.0) (Invited)",
-    "Link": "",
-    "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAUY5QQFil1Xd4ilUlGp6PerDx4Q_VC3XdEW2EwSNaTKRdyLGyk6C_ag0E3z61zmkOW6gdsterOmsgiVISg-LR22pZ1wgSZvWq0-hOJuzXXt8R_TZ-zpAP3t7bJK6h1l_3up9M610idbmRMiYLRUl_gPD19FvrHHStp7lTcUV-0AZuel2E1I7R-mpTiqs-KsPoG4b2LuBGOO2MO8EQch6WkauqvDts5m_U8vGY%3Dw1280",
-    "Source": "https://sites.google.com/view/eidl/publication",
-    "OldCategory": "Chiral Nanophotonics",
+    "OldCategory": "Neural Operator / Metasurface",
     "Note": ""
   }
 ];
