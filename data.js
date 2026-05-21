@@ -406,7 +406,7 @@ window.PUBLICATIONS = [
     "Note": ""
   },
   {
-    "No": "[27]",
+    "No": "[28]",
     "Year": "2025",
     "Category": "AI & Computational Design",
     "Keywords": "Neural Operator, Fourier Neural Operator, Surrogate Solver, Metasurface, Wavefront Shaping",
