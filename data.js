@@ -22,7 +22,7 @@ window.PUBLICATIONS = [
     "Authors": "Donghyun Kim, J. Han, S. Lee, M. Jang, H. Chung*",
     "Journal": "ACS Photonics (Under review)",
     "Link": "",
-    "Image": "https://drive.google.com/thumbnail?id=1d3tEAtBEKPbIDKvpJFXXDayyVfsfMeyT&sz=w800",
+    "Image": "https://drive.google.com/thumbnail?id=1MLTUfcFiExZlRvH4TnVizR-BvzyeBW3G&sz=w1000",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Color Router / Inverse Design",
     "Note": ""
@@ -53,7 +53,7 @@ window.PUBLICATIONS = [
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Integrated Photonics",
-    "Note": ""
+    "Note": "Front Cover selected"
   },
   {
     "No": "[51]",
@@ -67,7 +67,7 @@ window.PUBLICATIONS = [
     "Image": "https://drive.google.com/thumbnail?id=19cSbdE7ROjmMXTH-ciBxsYXyH-PFEo6h&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Ordinal Classification",
-    "Note": ""
+    "Note": "Editor's pick"
   },
   {
     "No": "[50]",
@@ -403,20 +403,6 @@ window.PUBLICATIONS = [
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAJIy21Znbf_W7XaWv62LidUWw73927ACfOKoRRn9nc8Xel-h0M9phQ9NN7Sl2rv9sUplx5r4OnjuFcRIipU8b7_WSG779g-6nj_cQQzfjO_UJhdBGUXT_65W11qYhMdvGUvzfvyObmzx5GimJHBOZsQlr02NJLZdgUqkejJNEInwFXou6AK1Dx%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Neural Operator / Metasurface",
-    "Note": ""
-  },
-  {
-    "No": "",
-    "Year": "",
-    "Category": "",
-    "Keywords": "",
-    "Title": "",
-    "Authors": "",
-    "Journal": "",
-    "Link": "",
-    "Image": "",
-    "Source": "220",
-    "OldCategory": "",
     "Note": ""
   }
 ];
