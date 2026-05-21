@@ -418,5 +418,19 @@ window.PUBLICATIONS = [
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Integrated Photonics",
     "Note": ""
+  },
+  {
+    "No": "[24]",
+    "Year": "2024",
+    "Category": "Materials & Light-Matter Interaction",
+    "Keywords": "Chiral Nanophotonics, Helical Dichroism, Inverse Design",
+    "Title": "Inverse Design of Chiral Structures for Giant Helical Dichroism",
+    "Authors": "C.-C. Pan†, M. Bae†, H. Wang, J. Lim, R. R. Unnithan, J. Yang, H. Chung*, S. Kim*",
+    "Journal": "Nanoscale Horizons (2025) (IF:8.0) (Invited)",
+    "Link": "",
+    "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAUY5QQFil1Xd4ilUlGp6PerDx4Q_VC3XdEW2EwSNaTKRdyLGyk6C_ag0E3z61zmkOW6gdsterOmsgiVISg-LR22pZ1wgSZvWq0-hOJuzXXt8R_TZ-zpAP3t7bJK6h1l_3up9M610idbmRMiYLRUl_gPD19FvrHHStp7lTcUV-0AZuel2E1I7R-mpTiqs-KsPoG4b2LuBGOO2MO8EQch6WkauqvDts5m_U8vGY%3Dw1280",
+    "Source": "https://sites.google.com/view/eidl/publication",
+    "OldCategory": "Chiral Nanophotonics",
+    "Note": ""
   }
 ];
