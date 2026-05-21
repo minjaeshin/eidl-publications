@@ -432,5 +432,19 @@ window.PUBLICATIONS = [
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Neural Operator / Metasurface",
     "Note": ""
+  },
+  {
+    "No": "[24]",
+    "Year": "2026",
+    "Category": "AI & Computational Design",
+    "Keywords": "AI, Multi-View Fusion, Mutual Distillation, View Combination",
+    "Title": "Hierarchical Mutual Distillation for Multi-View Fusion: Learning from All Possible View Combinations",
+    "Authors": "J. Yang, H. Chung*, I. Jang*",
+    "Journal": "Pattern Recognition (2026) (IF:7.6, JCR~9%)",
+    "Link": "https://arxiv.org/abs/2411.10077",
+    "Image": "https://drive.google.com/thumbnail?id=19wxxwVhCVu-G5KecztcErtbuUzhytYng&sz=w800",
+    "Source": "https://sites.google.com/view/eidl/publication",
+    "OldCategory": "AI / Multi-View Fusion",
+    "Note": ""
   }
 ];
