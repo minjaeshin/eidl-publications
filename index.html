@@ -43,7 +43,11 @@
   <div id="pubPaperList" class="pub-loading">Loading publications...</div>
   <div id="pubPagination" class="pub-pagination"></div>
 </div>
-<script src="data.js"></script>
+<script>
+  document.write(
+    '<script src="data.js?v=' + Date.now() + '"><\/script>'
+  );
+</script>
 <script>
 const URL_PARAMS=new URLSearchParams(window.location.search);
 const INITIAL_AUTHOR=URL_PARAMS.get("author")||"";
