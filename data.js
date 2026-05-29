@@ -418,5 +418,19 @@ window.PUBLICATIONS = [
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Neural Operator / Metasurface",
     "Note": ""
+  },
+  {
+    "No": "[26]",
+    "Year": "2025",
+    "Category": "AI & Computational Design",
+    "Keywords": "Neural Operator, Fourier Neural Operator, Surrogate Solver, Metasurface, Wavefront Shaping",
+    "Title": "Adjoint Method-based Fourier Neural Operator Surrogate Solver for Wavefront Shaping in Tunable Metasurfaces",
+    "Authors": "C. Kang†, J. Seo†, I. Jang, H. Chung*",
+    "Journal": "iScience (2025) (IF:6.107)",
+    "Link": "",
+    "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAJIy21Znbf_W7XaWv62LidUWw73927ACfOKoRRn9nc8Xel-h0M9phQ9NN7Sl2rv9sUplx5r4OnjuFcRIipU8b7_WSG779g-6nj_cQQzfjO_UJhdBGUXT_65W11qYhMdvGUvzfvyObmzx5GimJHBOZsQlr02NJLZdgUqkejJNEInwFXou6AK1Dx%3Dw1280",
+    "Source": "https://sites.google.com/view/eidl/publication",
+    "OldCategory": "Neural Operator / Metasurface",
+    "Note": ""
   }
 ];
