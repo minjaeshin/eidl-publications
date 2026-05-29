@@ -52,13 +52,50 @@ const URL_PARAMS=new URLSearchParams(window.location.search);
 const INITIAL_AUTHOR=URL_PARAMS.get("author")||"";
 const INITIAL_MEMBER=URL_PARAMS.get("member")||"";
 const MEMBER_ALIASES={
- "munseong-bae":{label:"Munseong Bae",aliases:["Munseong Bae","M. Bae"]},
- "eunbi-jang":{label:"Eunbi Jang",aliases:["Eunbi Jang","E. Jang"]},
- "minho-choi":{label:"Minho Choi",aliases:["Minho Choi","M. Choi"]},
- "joonho-kang":{label:"Joonho Kang",aliases:["Joonho Kang","J. Kang"]},
- "jaehyun-hong":{label:"Jaehyun Hong",aliases:["Jaehyun Hong","J. Hong"]},
- "chihyun-kim":{label:"Chihyun Kim",aliases:["Chihyun Kim","C. Kim"]},
- "haejun-chung":{label:"Haejun Chung",aliases:["Haejun Chung","H. Chung"]}
+ "haejun-chung":{label:"Haejun Chung",aliases:["Haejun Chung","H. Chung","H Chung"]},
+ "ikbeom-jang":{label:"Ikbeom Jang",aliases:["Ikbeom Jang","I. Jang","I Jang"]},
+ "hyounghan-kwon":{label:"Hyounghan Kwon",aliases:["Hyounghan Kwon","H. Kwon","H Kwon"]},
+ "jinwoong-cha":{label:"Jinwoong Cha",aliases:["Jinwoong Cha","J. Cha","J Cha"]},
+ "hyunjoo-kim":{label:"Hyunjoo Kim",aliases:["Hyunjoo Kim","H. Kim","H Kim"]},
+ "changkyun-lee":{label:"Changkyun Lee",aliases:["Changkyun Lee","C. Lee","C Lee"]},
+ "hyunsoo-choi":{label:"Hyunsoo Choi",aliases:["Hyunsoo Choi","H. Choi","H Choi"]},
+
+ "munseong-bae":{label:"Munseong Bae",aliases:["Munseong Bae","M. Bae","M Bae"]},
+ "chihyun-kim":{label:"Chihyun Kim",aliases:["Chihyun Kim","C. Kim","C Kim"]},
+ "jaehyun-hong":{label:"Jaehyun Hong",aliases:["Jaehyun Hong","J. Hong","J Hong"]},
+ "eunbi-jang":{label:"Eunbi Jang",aliases:["Eunbi Jang","E. Jang","E Jang"]},
+ "minho-choi":{label:"Minho Choi",aliases:["Minho Choi","M. Choi","M Choi"]},
+ "joonho-kang":{label:"Joonho Kang",aliases:["Joonho Kang","J. Kang","J Kang"]},
+ "mingyu-park":{label:"Mingyu Park",aliases:["Mingyu Park","M. Park","M Park"]},
+ "seunghyeon-lee":{label:"Seunghyeon Lee",aliases:["Seunghyeon Lee","Seunghyun Lee","S. Lee","S Lee"]},
+ "kyungmin-kim":{label:"Kyungmin Kim",aliases:["Kyungmin Kim","K. Kim","K Kim"]},
+ "jinseong-bae":{label:"Jinseong Bae",aliases:["Jinseong Bae","J. Bae","J Bae"]},
+ "donghyun-park":{label:"Donghyun Park",aliases:["Donghyun Park","D. Park","D Park"]},
+ "hyunwook-kim":{label:"Hyunwook Kim",aliases:["Hyunwook Kim","H. Kim","H Kim"]},
+
+ "junseo-han":{label:"Junseo Han",aliases:["Junseo Han","J. Han","J Han"]},
+ "wonjung-yang":{label:"Wonjung Yang",aliases:["Wonjung Yang","W. Yang","W Yang"]},
+ "donghyun-kim":{label:"Donghyun Kim",aliases:["Donghyun Kim","D. Kim","D Kim"]},
+ "minjae-shin":{label:"Minjae Shin",aliases:["Minjae Shin","M. Shin","M Shin"]},
+ "yerim-kim":{label:"Yerim Kim",aliases:["Yerim Kim","Y. Kim","Y Kim"]},
+ "hojun-lee":{label:"Hojun Lee",aliases:["Hojun Lee","H. Lee","H Lee"]},
+ "jaewook-kim":{label:"Jaewook Kim",aliases:["Jaewook Kim","J. Kim","J Kim"]},
+ "seungwon-kim":{label:"Seungwon Kim",aliases:["Seungwon Kim","S. Kim","S Kim"]},
+
+ "chanik-kang":{label:"Chanik Kang",aliases:["Chanik Kang","C. Kang","C Kang"]},
+ "hyewon-suk":{label:"Hyewon Suk",aliases:["Hyewon Suk","H. Suk","H Suk"]},
+ "minjin-kim":{label:"Minjin Kim",aliases:["Minjin Kim","M. Kim","M Kim"]},
+ "jiwoo-kim":{label:"Jiwoo Kim",aliases:["Jiwoo Kim","J. Kim","J Kim"]},
+ "junho-moon":{label:"Junho Moon",aliases:["Junho Moon","J. Moon","J Moon"]},
+ "daehwan-kim":{label:"Daehwan Kim",aliases:["Daehwan Kim","D. Kim","D Kim"]},
+ "jiwoong-yang":{label:"Jiwoong Yang",aliases:["Jiwoong Yang","J. Yang","J Yang"]},
+ "yujin-park":{label:"Yujin Park",aliases:["Yujin Park","Y. Park","Y Park"]},
+ "boseong-kim":{label:"Boseong Kim",aliases:["Boseong Kim","B. Kim","B Kim"]},
+
+ "chihun-an":{label:"Chihun An",aliases:["Chihun An","C. An","C An"]},
+ "jaeyoung-soh":{label:"Jaeyoung Soh",aliases:["Jaeyoung Soh","J. Soh","J Soh"]},
+ "jaehyeon-park":{label:"Jaehyeon Park",aliases:["Jaehyeon Park","J. Park","J Park"]},
+ "chanyoung-kim":{label:"Chanyoung Kim",aliases:["Chanyoung Kim","C. Kim","C Kim"]}
 };
 let papers=[],currentPage=1,pageSize=10,activeMemberKey="",activeMemberLabel="",activeMemberAliases=[];
 function parseCSV(text){text=text.replace(/^\uFEFF/,"");const rows=[];let row=[],cell="",q=false;for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];if(c=='"'&&q&&n=='"'){cell+='"';i++}else if(c=='"'){q=!q}else if(c==","&&!q){row.push(cell);cell=""}else if((c=="\n"||c=="\r")&&!q){if(c=="\r"&&n=="\n")i++;row.push(cell);rows.push(row);row=[];cell=""}else cell+=c}if(cell.length>0||row.length>0){row.push(cell);rows.push(row)}return rows}
@@ -68,8 +105,9 @@ function escapeHTML(v){return String(v||"").replace(/&/g,"&amp;").replace(/</g,"
 function formatInline(v){return escapeHTML(v).replace(/\[\[b\]\](.*?)\[\[\/b\]\]/g,"<strong>$1</strong>").replace(/\[\[i\]\](.*?)\[\[\/i\]\]/g,"<em>$1</em>").replace(/\[\[br\]\]/g,"<br>")}
 function formatJournalAuto(v){const t=escapeHTML(v),m=t.match(/(\(\s*IF\s*:[^)]+\))/i);if(m){const metric=m[1],main=t.replace(metric,"").trim();return `<strong><em>${main}</em></strong> <span class="pub-metric">${metric}</span>`}return `<strong><em>${t}</em></strong>`}
 function normalizeImageUrl(u){u=String(u||"").trim();const m=u.match(/drive\.google\.com\/file\/d\/([^/]+)/);return m?`https://drive.google.com/thumbnail?id=${m[1]}&sz=w800`:u}
+function normalizeAuthorText(v){return String(v||"").toLowerCase().replace(/[†‡*]/g,"").replace(/\./g,"").replace(/\s+/g," ").trim()}
 function applyInitialFilter(){const member=String(INITIAL_MEMBER||"").toLowerCase().trim(),author=String(INITIAL_AUTHOR||"").trim();activeMemberKey="";activeMemberLabel="";activeMemberAliases=[];if(member&&MEMBER_ALIASES[member]){activeMemberKey=member;activeMemberLabel=MEMBER_ALIASES[member].label;activeMemberAliases=MEMBER_ALIASES[member].aliases;return}if(author){activeMemberKey="custom-author";activeMemberLabel=author;activeMemberAliases=[author]}}
-function memberMatchesPaper(p){if(!activeMemberAliases.length)return true;const authors=String(p.Authors||"").toLowerCase();return activeMemberAliases.some(a=>authors.includes(String(a||"").toLowerCase()))}
+function memberMatchesPaper(p){if(!activeMemberAliases.length)return true;const authors=normalizeAuthorText(p.Authors);return activeMemberAliases.some(a=>{const alias=normalizeAuthorText(a);return alias&&authors.includes(alias)})}
 function makeFilters(){const c=document.getElementById("pubCategoryFilter"),y=document.getElementById("pubYearFilter");c.innerHTML=`<option value="All">All Categories</option>`;y.innerHTML=`<option value="All">All Years</option>`;[...new Set(papers.flatMap(p=>parseList(p.Category)))].sort().forEach(cat=>{const o=document.createElement("option");o.value=cat;o.textContent=cat;c.appendChild(o)});[...new Set(papers.map(p=>p.Year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a)).forEach(year=>{const o=document.createElement("option");o.value=year;o.textContent=year;y.appendChild(o)})}
 function getFiltered(){const category=document.getElementById("pubCategoryFilter").value,year=document.getElementById("pubYearFilter").value;return papers.filter(p=>{const cats=parseList(p.Category);return memberMatchesPaper(p)&&(category==="All"||cats.includes(category))&&(year==="All"||String(p.Year)===String(year))})}
 function getPaperNoNumber(v){const m=String(v||"").match(/\d+/);return m?Number(m[0]):-1}
