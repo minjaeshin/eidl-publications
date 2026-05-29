@@ -107,7 +107,24 @@ function formatJournalAuto(v){const t=escapeHTML(v),m=t.match(/(\(\s*IF\s*:[^)]+
 function normalizeImageUrl(u){u=String(u||"").trim();const m=u.match(/drive\.google\.com\/file\/d\/([^/]+)/);return m?`https://drive.google.com/thumbnail?id=${m[1]}&sz=w800`:u}
 function normalizeAuthorText(v){return String(v||"").toLowerCase().replace(/[†‡*]/g,"").replace(/\./g,"").replace(/\s+/g," ").trim()}
 function applyInitialFilter(){const member=String(INITIAL_MEMBER||"").toLowerCase().trim(),author=String(INITIAL_AUTHOR||"").trim();activeMemberKey="";activeMemberLabel="";activeMemberAliases=[];if(member&&MEMBER_ALIASES[member]){activeMemberKey=member;activeMemberLabel=MEMBER_ALIASES[member].label;activeMemberAliases=MEMBER_ALIASES[member].aliases;return}if(author){activeMemberKey="custom-author";activeMemberLabel=author;activeMemberAliases=[author]}}
-function memberMatchesPaper(p){if(!activeMemberAliases.length)return true;const authors=normalizeAuthorText(p.Authors);return activeMemberAliases.some(a=>{const alias=normalizeAuthorText(a);return alias&&authors.includes(alias)})}
+function memberMatchesPaper(p){
+  if(!activeMemberAliases.length) return true;
+
+  const memberKeys = parseList(
+    p.MemberKeys || p.MemberKey || p.Members || p.AuthorKeys || ""
+  ).map(k => String(k || "").toLowerCase().trim());
+
+  if(activeMemberKey && memberKeys.length){
+    return memberKeys.includes(activeMemberKey);
+  }
+
+  const authors = normalizeAuthorText(p.Authors);
+
+  return activeMemberAliases.some(a => {
+    const alias = normalizeAuthorText(a);
+    return alias && authors.includes(alias);
+  });
+}
 function makeFilters(){const c=document.getElementById("pubCategoryFilter"),y=document.getElementById("pubYearFilter");c.innerHTML=`<option value="All">All Categories</option>`;y.innerHTML=`<option value="All">All Years</option>`;[...new Set(papers.flatMap(p=>parseList(p.Category)))].sort().forEach(cat=>{const o=document.createElement("option");o.value=cat;o.textContent=cat;c.appendChild(o)});[...new Set(papers.map(p=>p.Year).filter(Boolean))].sort((a,b)=>Number(b)-Number(a)).forEach(year=>{const o=document.createElement("option");o.value=year;o.textContent=year;y.appendChild(o)})}
 function getFiltered(){const category=document.getElementById("pubCategoryFilter").value,year=document.getElementById("pubYearFilter").value;return papers.filter(p=>{const cats=parseList(p.Category);return memberMatchesPaper(p)&&(category==="All"||cats.includes(category))&&(year==="All"||String(p.Year)===String(year))})}
 function getPaperNoNumber(v){const m=String(v||"").match(/\d+/);return m?Number(m[0]):-1}
