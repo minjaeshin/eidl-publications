@@ -5,13 +5,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Neural Operator, Physics-guided Simulation, Electromagnetic Field Prediction, Nanophotonics",
     "Title": "Broadband Electromagnetic Field Prediction at Unseen Wavelengths via Physics-Guided Neural Operators",
-    "Authors": "J. Seo†, C. Kang†, D. Seo, H. Chung*",
+    "Authors": "J. Seo†, [[b]]C. Kang†[[/b]], D. Seo, [[b]]H. Chung*[[/b]]",
     "Journal": "Nanophotonics (Under review)",
     "Link": "https://arxiv.org/abs/2408.02971",
     "Image": "https://drive.google.com/thumbnail?id=1l5n8G9cc9Zths0I72hzBv1u8OdHRJMkg&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Neural Operator",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; haejun-chung"
   },
   {
     "No": "",
@@ -19,13 +20,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "Color Router, Inverse Design, Angle Robustness, Image Sensor, Structural Similarity",
     "Title": "Inverse Design of Angle-Robust Color Routers by Optical Structural Similarity",
-    "Authors": "Donghyun Kim, J. Han, S. Lee, M. Jang, H. Chung*",
+    "Authors": "[[b]]Donghyun Kim[[/b]], [[b]]J. Han[[/b]], [[b]]S. Lee[[/b]], M. Jang, [[b]]H. Chung*[[/b]]",
     "Journal": "ACS Photonics (Under review)",
     "Link": "",
     "Image": "https://drive.google.com/thumbnail?id=1MLTUfcFiExZlRvH4TnVizR-BvzyeBW3G&sz=w1000",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Color Router / Inverse Design",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "donghyun-kim; junseo-han; seunghyeon-lee; haejun-chung"
   },
   {
     "No": "",
@@ -33,13 +35,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Metasurface, Optical Skyrmion, Topological Photonics, Inverse Design",
     "Title": "Inverse-Designed Metasurfaces for Compact Optical Skyrmion Generation with High Topological Fidelity",
-    "Authors": "D. Park, A. Song, H. Chung*, S. Kim*",
+    "Authors": "[[b]]D. Park[[/b]], A. Song, [[b]]H. Chung*[[/b]], S. Kim*",
     "Journal": "Advanced Optical Materials (Under review)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Metasurface / Optical Skyrmion",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "donghyun-park; haejun-chung"
   },
   {
     "No": "[52]",
@@ -47,13 +50,14 @@ window.PUBLICATIONS = [
     "Category": "Integrated Photonics & Quantum",
     "Keywords": "Thin-Film Lithium Niobate, Two-Photon Interference, On-Chip Photonics, Quantum Photonics",
     "Title": "Versatile On-Chip Reconfigurable Two-Photon Interference Platforms Using Thin-Film Lithium Niobate",
-    "Authors": "Minho Choi‡, Changhyun Kim‡, Sunghyun Moon, Hyeon Hwang, Min-Kyo Seo, Hyang-Tag Lim, Haejun Chung, Hojoong Jung*, and Hyounghan Kwon*",
+    "Authors": "[[b]]Minho Choi‡[[/b]], Changhyun Kim‡, Sunghyun Moon, Hyeon Hwang, Min-Kyo Seo, Hyang-Tag Lim, [[b]]Haejun Chung[[/b]], Hojoong Jung*, and [[b]]Hyounghan Kwon*[[/b]]",
     "Journal": "APL Photonics (2026) (IF:5.3, JCR~20%)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Integrated Photonics",
-    "Note": "Front Cover selected"
+    "Note": "Front Cover selected",
+    "MemberKeys": "minho-choi; haejun-chung; hyounghan-kwon"
   },
   {
     "No": "[51]",
@@ -61,13 +65,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Ordinal Classification, Calibration, Dynamic Regularization, Unimodality",
     "Title": "MORCU: Margin-Based Ordinal Classification with Dynamic Regularization for Calibration and Unimodality",
-    "Authors": "Daehwan Kim, H. Chung*, I. Jang*",
+    "Authors": "[[b]]Daehwan Kim[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "Pattern Recognition (2026) (IF:7.6, JCR~9%)",
     "Link": "",
     "Image": "https://drive.google.com/thumbnail?id=19cSbdE7ROjmMXTH-ciBxsYXyH-PFEo6h&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Ordinal Classification",
-    "Note": "Editor's pick"
+    "Note": "Editor's pick",
+    "MemberKeys": "daehwan-kim; haejun-chung; ikbeom-jang"
   },
   {
     "No": "[50]",
@@ -75,13 +80,14 @@ window.PUBLICATIONS = [
     "Category": "Biomedical AI",
     "Keywords": "AI, Medical Imaging, MRI, PET, Cross-modal Synthesis, Perceptual Loss",
     "Title": "Cyclic 2.5D Perceptual Loss for Cross-Modal 3D Image Synthesis: T1 MRI to Tau-PET",
-    "Authors": "J. Moon, S. Kim, H. Chung*, I. Jang*",
+    "Authors": "[[b]]J. Moon[[/b]], S. Kim, [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "Human Brain Mapping (2026) (IF:3.5, JCR~17%)",
     "Link": "",
     "Image": "https://drive.google.com/thumbnail?id=1-5n1rexPlMSail7tVhJL5dW7A5p9KWJM&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Medical Imaging",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "junho-moon; haejun-chung; ikbeom-jang"
   },
   {
     "No": "[49]",
@@ -89,13 +95,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Multi-View Fusion, Mutual Distillation, View Combination",
     "Title": "Hierarchical Mutual Distillation for Multi-View Fusion: Learning from All Possible View Combinations",
-    "Authors": "J. Yang, H. Chung*, I. Jang*",
+    "Authors": "[[b]]J. Yang[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "Pattern Recognition (2026) (IF:7.6, JCR~9%)",
     "Link": "https://arxiv.org/abs/2411.10077",
     "Image": "https://drive.google.com/thumbnail?id=19wxxwVhCVu-G5KecztcErtbuUzhytYng&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Multi-View Fusion",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "jiwoong-yang; haejun-chung; ikbeom-jang"
   },
   {
     "No": "[48]",
@@ -103,13 +110,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Topology Optimization, Adjoint Method, Time-domain Simulation, Band-selective Design",
     "Title": "Multi-objective time-domain adjoint via temporal convolution for band-selective electromagnetic topology optimization",
-    "Authors": "M. Park, S. Boriskina, H. Chung*",
+    "Authors": "[[b]]M. Park[[/b]], S. Boriskina, [[b]]H. Chung*[[/b]]",
     "Journal": "Result in Physics (2026) (IF:4.8, JCR~20%)",
     "Link": "",
     "Image": "https://drive.google.com/thumbnail?id=1pMl8aVVhB7LhHAemddj7ROJy7boh1gDe&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Topology Optimization",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "mingyu-park; haejun-chung"
   },
   {
     "No": "[47]",
@@ -117,13 +125,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Ranking, Human-in-the-loop, VLM, Pairwise Comparison",
     "Title": "Dodgersort: Uncertainty-Aware VLM-Guided Human-in-the-Loop Pairwise Ranking",
-    "Authors": "Y. Park, H. Chung*, I. Jang*",
+    "Authors": "[[b]]Y. Park[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "PAKDD (2026) (BK21 Conference, Oral Presentation)",
     "Link": "",
     "Image": "https://drive.google.com/thumbnail?id=1aiyO9MFxCZrlQBcGy5BE6ipuEI4ie0Mq&sz=w800",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Human-in-the-loop Ranking",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "yujin-park; haejun-chung; ikbeom-jang"
   },
   {
     "No": "[46]",
@@ -131,13 +140,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "AI, Diffusion Model, Inverse Design, Fabrication-aware Design, Photonic Devices",
     "Title": "Physics-guided and fabrication-aware inverse design of photonic devices using diffusion models",
-    "Authors": "Dongjin Seo†, Soobin Um†, Sangbin Lee, Jong Chul Ye* and Haejun Chung*",
+    "Authors": "Dongjin Seo†, Soobin Um†, Sangbin Lee, Jong Chul Ye* and [[b]]Haejun Chung*[[/b]]",
     "Journal": "ACS Photonics (2026) (IF:6.7, JCR 14%)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDrVjS1sIFRxTMbPbXC0a96WQdtcTeO2Ng6lBGHKJD68mDlnHfoxXuNjUaKVWpWJLSS4YxZvhqdY6UXkmOlf9waV25vNiXbKktf3LrE7TrH9VUdJeGD5vDfTAnpAHJ23Vg8Uwxw6nquG2pt6Mnr71eb5ozMx35R68DROIowDeQcCifnDuGBnXpDZNnsP3bJz5bdLIYR3tycQ7g0XrrlGESMZVEFZzs5uEc1%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Inverse Design / Diffusion Model",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[45]",
@@ -145,13 +155,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "AI, Metalens Imaging, Image Translation, Image Synthesis",
     "Title": "Metalens-Style Image Synthesis for Metalens Imaging via Image-to-Image Translation",
-    "Authors": "Chanik Kang†, Hyewon Suk†, Joonhyuk Seo, Ikbeom Jang* and Haejun Chung*",
+    "Authors": "[[b]]Chanik Kang†[[/b]], [[b]]Hyewon Suk†[[/b]], Joonhyuk Seo, [[b]]Ikbeom Jang*[[/b]] and [[b]]Haejun Chung*[[/b]]",
     "Journal": "Scientific Report (2026) (IF:3.9, JCR~25%)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUD1TAQLQyEFSxnbEoJeHuH7p-VU65NvaepogeBdjN9cV0A7k1CsPPpxlkOgruTFzuTk2UvhlwP2lD330wkVqOxUKCJ1h8EncwWvJXoxeqY-Uxf0rONltWxg39XkshxohmhVyb-qZGuw-F8rZnSIiH_O_RNMifc7qq5Oq4YZJWaBV6V4tJt2DDYHQkHt57cPxxi1QAhlUo4725edQaxHlsOSOmAIIylcwGBBolE%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Metalens Imaging",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; hyewon-suk; ikbeom-jang; haejun-chung"
   },
   {
     "No": "[44]",
@@ -159,13 +170,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "Thermal Imaging, Metalens, Inverse Design, Microbolometer, Wide FOV",
     "Title": "Inverse Design of Thermal Imaging Metalens Achieving 100 degrees Field-of-View on a 4 × 4 Microbolometer Array",
-    "Authors": "Munseong Bae†, Eunbi Jang†, Chanik Kang†, Haejun Chung*",
+    "Authors": "[[b]]Munseong Bae†[[/b]], [[b]]Eunbi Jang†[[/b]], [[b]]Chanik Kang†[[/b]], [[b]]Haejun Chung*[[/b]]",
     "Journal": "Micromachines (2026) (IF:3.0)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDr57DerVjZxdPf2JTLYotxE_lL8OFyizeyNTf8c_GhhvKs5CiCHfCPGlxPuQSx5D_wMkgW_EBTk4kO20CMWhzfdWtywl3OwhMXLqLU47mJFDh0h8WvkWDByNjPg050DzMRC-k0jwVE8CP8Fz6m4THzlN-oNKgk9_JoU8fzxZlaAZcrfN7fwH9mv3TxiBsD4fdug-snMYG2JvMEeLtGHV9S4TRgq9BAfUqO%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Thermal Metalens",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; eunbi-jang; chanik-kang; haejun-chung"
   },
   {
     "No": "[43]",
@@ -173,13 +185,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "Color Router, Nanophotonics, Inverse Design, Oblique Incidence, Image Sensor",
     "Title": "Inverse Design of Nanophotonic Color Router Robust to Oblique Incidence",
-    "Authors": "Jaehyun Jeon, Chanhyung Park, Doyoung Heo, Haejun Chung, Min Seok Jang*",
+    "Authors": "Jaehyun Jeon, Chanhyung Park, Doyoung Heo, [[b]]Haejun Chung[[/b]], Min Seok Jang*",
     "Journal": "Advanced Optical Materials (2026) (IF:7.2)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDxgCbTj-giTDAfJjFMHma_R_Uk-7YG29BtaV201p3S-vzEzXrIIZo-rw9DHrEkbL3Y9UUAVpfankwk2dzJnkdzHSwHXgDx-B-erOyE_DUTIZ32tE0U1lk2eEGE-Tq5ucf9eb63z49ky8tKksOnvLkI3aouJ5wQcKeFlOq1TrJt6VporkNSUy8EYHIY8ladE0n1Juj1QvZQYIfvoJWc6GAqY6Wl25qes5f0%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Color Router / Nanophotonics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "",
@@ -187,13 +200,14 @@ window.PUBLICATIONS = [
     "Category": "Biomedical AI",
     "Keywords": "AI, fMRI, Brain Network, Resting-State fMRI, Task fMRI",
     "Title": "BOLDSimNet: Examining Brain Network Similarity between Task and Resting-State fMRI",
-    "Authors": "B. Kim, DD. Chakladar, H. Chung*, I. Jang*",
+    "Authors": "[[b]]B. Kim[[/b]], DD. Chakladar, [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "Under review",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUBGLyXCpVif1k4-TXpjJntCVh6gzroNor0hDKj98r7L8kSFaHtsHcxSzpZ22zjHgHKK2FdfijEiWbZON7nqJ_oeu167GGclla9GrK4LueiFEZUuAzH3GfjnugnJDbck6hFuhx-41opJgG1En6_uKqa_6AsBbaT_zwUDuTmJC5YPQOZOpoREqwxhw83hVRPbxywR8i0wvc5kxg1bSO9ut0fKF8cyZ0u1qkKOs9U%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / fMRI",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "boseong-kim; haejun-chung; ikbeom-jang"
   },
   {
     "No": "",
@@ -201,13 +215,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Ordinal Regression, Calibration, Neural Network",
     "Title": "Calibration of ordinal regression networks",
-    "Authors": "D. Kim, H. Chung*, I. Jang*",
+    "Authors": "[[b]]D. Kim[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "Under review",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUCZN47WHS2EACol82H0d43v26OWTkLFrD06b7noXCcO66ZJjG7r3pQy5zAI06miQficGstw0Lea-LHzy7lUJs47njFE4b9svWkrmcIxki6qgHI5K3vUvVitOwzBnKUTNDQ3mQ6-nA8ek6eFPdIU2cIoI2Eg3sduGEC5qUkUoK3-MAFyuq7zv6krW55u92749yOgMamN0v7wq3674pbCddOJNl6gUkwH6bcI8zo%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Ordinal Regression",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "daehwan-kim; haejun-chung; ikbeom-jang"
   },
   {
     "No": "",
@@ -215,13 +230,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Ranking, Human-in-the-loop, Metalens Image Quality",
     "Title": "MetaRanker: Human-in-the-loop Active Ranking for Metalens Image Quality",
-    "Authors": "Y. Park, H. Chung*, I. Jang*",
+    "Authors": "[[b]]Y. Park[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "Under review",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUCozPqDm3FMrJZAfu8LrXLJ72aWtxSbRW9EOLSwuLXX0H0zv2ZuV1UJ5-gvtbR_oS-bKa-owTpk5w7RCrjTZ5jeckNwkSq6bWRZp3JeIOfsjHXvVag3yXSMj-x_9AcRYCQ3Zyu70Cn4LXByq2An1SomnSbrqCoW5I8HwH_3kLdO416WIRTPwFmgZ8QjbSQyeYe323DpO1UXiOlyfEgeQHpmCQALBALI703N%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Ranking",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "yujin-park; haejun-chung; ikbeom-jang"
   },
   {
     "No": "",
@@ -229,13 +245,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "Neural Operator, Fourier Neural Operator, Adjoint Method, Meta-optics, Inverse Design",
     "Title": "Neural Adjoint Method for Meta-optics: Accelerating Volumetric Inverse Design via Fourier Neural Operators",
-    "Authors": "C. Kang, H. Suk, H. Chung*",
+    "Authors": "[[b]]C. Kang[[/b]], [[b]]H. Suk[[/b]], [[b]]H. Chung*[[/b]]",
     "Journal": "Under review",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUB3FyHuOR9eqXfe4cIOkTq9Rl4jsbahZ8979jQxIK9jIcw_-xyn85XvsCvW9gKMgPaBovPhHdTwVC9r_Cqt1yU2nMXJdujGteVfWToOWxZ1csHXTg9lZmGANGnGbS-P_1fjXRXHKagQh-ZJOaxI2AgDWEqk0XnCfdryAtFWOLA9bs8eC4x1j2ajX2F6S5lHPpxN7xMiHK8O7hvClFW7Hwc8qrpZN9xIH6IbwQY%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Neural Operator / Meta-optics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; hyewon-suk; haejun-chung"
   },
   {
     "No": "",
@@ -243,13 +260,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "2D Materials, WS2, Plasmonics, Nanocubes, Valley-polarized Emission",
     "Title": "Enhanced valley-polarized emission in n-doped WS2 via plasmonic nanocubes",
-    "Authors": "Ha Young Lee, Munseong Bae, Alexander Corletto, Feier Fang, James Bullock, Haejun Chung, and Sejeong Kim*",
+    "Authors": "Ha Young Lee, [[b]]Munseong Bae[[/b]], Alexander Corletto, Feier Fang, James Bullock, [[b]]Haejun Chung[[/b]], and Sejeong Kim*",
     "Journal": "Under review",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "2D Materials / Plasmonics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; haejun-chung"
   },
   {
     "No": "",
@@ -257,13 +275,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "2D Materials, Optical Vortex, van der Waals Materials, High Efficiency",
     "Title": "Near-unity efficiency optical vortex generation in van der Waals materials",
-    "Authors": "Sujeong Byun, Munseong Bae, Hangsung Cho, Haejun Chung, Kostya Novoselov, James Bullock and Sejeong Kim*",
+    "Authors": "Sujeong Byun, [[b]]Munseong Bae[[/b]], Hangsung Cho, [[b]]Haejun Chung[[/b]], Kostya Novoselov, James Bullock and Sejeong Kim*",
     "Journal": "Under review",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "2D Materials / Optical Vortex",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; haejun-chung"
   },
   {
     "No": "[42]",
@@ -271,13 +290,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "AR, Waveguide Coupler, Inverse Design, Optical See-through Display",
     "Title": "Optical see-through augmented reality via inverse-designed waveguide couplers",
-    "Authors": "Seunghyun Lee, Byounghyo Lee and Haejun Chung*",
+    "Authors": "[[b]]Seunghyun Lee[[/b]], Byounghyo Lee and [[b]]Haejun Chung*[[/b]]",
     "Journal": "Nanophotonics (2025) (IF:7.5)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDVY6_6i6veNP1A99ETLh77qkZR1zxiwxcVmxZIVpqw73IUHlG-EsQsYiCk0Jk3aLHVPREZbV43Xh3hyK38bi1ADxCarvIlkEeYsLrXw9H8ExZPliLQDWkfz1pkCYK4lazpNVJ6IwYtFTRNED7YaIwgL--PQGgsg3pUeqLHcdrqShcYN5-0DsAEgSE8Dvm15DRW1_4ehTTq8gW7jNf7r_TSKlO-Ss0g9O-_%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AR / Waveguide Coupler",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "seunghyeon-lee; haejun-chung"
   },
   {
     "No": "[41]",
@@ -285,13 +305,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "Chiral Nanophotonics, Chiroptical Response, Inverse Design",
     "Title": "Inverse design for enhanced chiroptical response with chiral nanophotonic structures",
-    "Authors": "Munseong Bae†, Chia-Chun Pan†, Chanik Kang†, Jinseong Bae, Donghyun Park, Seokho Lee, Cherry Park, Haoran Ren, Junsuk Rho, Haejun Chung*, and Sejeong Kim*",
+    "Authors": "[[b]]Munseong Bae†[[/b]], Chia-Chun Pan†, [[b]]Chanik Kang†[[/b]], [[b]]Jinseong Bae[[/b]], [[b]]Donghyun Park[[/b]], Seokho Lee, Cherry Park, Haoran Ren, Junsuk Rho, [[b]]Haejun Chung*[[/b]], and Sejeong Kim*",
     "Journal": "APL Photonics (2025) (IF:5.3, JCR 18%)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUC9MSxGm7dyz6zj_7ynK4-Mo67kC_ycINFDb5L_W4PW5jUxn5RWTZvEuDkcQasNTgtKO1X69-yPVHEK1VrDeBZNcWQVQlSD875Kp4uggCuniOijIxVgA_vuBkGC9nvIOa_811wwMi9BJno5SIkKV4lKQgZ_u2JjRMyigj7L8aoQGcnr_Dghw-RHy_5Di96uhFYjsOwV9drR057r24xDOd1YD-o_6Roqv-vCL2Q%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Chiral Nanophotonics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; chanik-kang; jinseong-bae; donghyun-park; haejun-chung"
   },
   {
     "No": "[40]",
@@ -299,13 +320,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "AI, Sorting, Human-in-the-loop, CLIP, Pairwise Comparison",
     "Title": "EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting",
-    "Authors": "Y. Park, H. Chung*, I. Jang*",
+    "Authors": "[[b]]Y. Park[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "CIKM (2025) (BK21 Conference)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDHthm5zuLjgj4lC8ag_fqI5JFTGliOeFgYZut4kdc4mRMxH74tARaCj8AYN0jqbk9XYEs_oR_bdzY4zYoaiZtbHFvKjYVuhk3omngLSU-377BAvKTkBvvmilYRB-qvcifEI7J0RGuuR8Q2sCTcB8bXJPQ-Wig-Zn6FQgcVhCGxPkScObaT2X-7QEQ398gFzLVdA0j0F98lqO9qhuVmdhMT8PmcX8msfA027Mc%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Sorting",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "yujin-park; haejun-chung; ikbeom-jang"
   },
   {
     "No": "[39]",
@@ -313,13 +335,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "2D Materials, Optical Vortex, Spin-Orbit Coupling, van der Waals Materials",
     "Title": "Spin-Orbit Coupling for Optical Vortex Generation in van der Waals Materials",
-    "Authors": "J. Jo†, S. Byun†, M. Bae, J. Wang, H. Chung*, S. Kim*",
+    "Authors": "J. Jo†, S. Byun†, [[b]]M. Bae[[/b]], J. Wang, [[b]]H. Chung*[[/b]], S. Kim*",
     "Journal": "Light: Science & Applications (2025) (IF:23.4, JCR~2.9%)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUC4Ljp1FCe1yVFWSFgphnXuLmUR7W--7CEayWkfKq4j4ylvlqfdIj5TXQfVTpyRxB34r2apBvwO3mSaLA3cbYQkUd1QYCm5IRMfXPPrXwCzCaVEbPR_vVskvBOTUWICkDJs0emJddPDMdW0IhST0aZ9kNVprpyP4Mh8Q8BEDazCUB4u2ydNpGaTg4a-qzx8UZVghcSZAWuwu5XPqEhNglPiPelI4MLbJVZMyN0%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "2D Materials / Optical Vortex",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; haejun-chung"
   },
   {
     "No": "[38]",
@@ -327,13 +350,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "UDC, Metasurface Imaging, Wavefront Restoration, Under-Display Camera",
     "Title": "Inverse-Designed Metasurfaces for Wavefront Restoration in Under-Display Camera Systems",
-    "Authors": "J. Jo†, M. Lee†, S. Lee†, C. Kang, H. Chung*",
+    "Authors": "J. Jo†, M. Lee†, [[b]]S. Lee†[[/b]], [[b]]C. Kang[[/b]], [[b]]H. Chung*[[/b]]",
     "Journal": "Nanophotonics (2025) (IF:7.5)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUCUh_UTa3JqBAFD94FUwNsbGfnd2sf9xNpLV93Ll4vNs6ny9TVXiFIz43Y6xXL5rxrev1uwKJz046T9lWu7ZDVSArM3Gt6eKf5oGSUJJyFSClYCexICOg-XI90M1bXhGH5GDZV6Hs-TuskAQ6sLWqT24ZmAnqWYh4e-IrsQDe7o1fmlJ8WOWdr_TLaa7LT_NmQBPpIZMn85J56wltGIVzrHqCWknmpSRqr4ZYQ%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "UDC / Metasurface Imaging",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "seunghyeon-lee; chanik-kang; haejun-chung"
   },
   {
     "No": "[37]",
@@ -341,13 +365,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Metamaterial Absorber, Inverse Design, Ultrathin Absorber",
     "Title": "Inverse design of ultrathin metamaterial absorber",
-    "Authors": "E. Jang†, J. Cho†, C. Kang*, H. Chung*",
+    "Authors": "[[b]]E. Jang†[[/b]], J. Cho†, [[b]]C. Kang*[[/b]], [[b]]H. Chung*[[/b]]",
     "Journal": "Nanomaterials (2025) (IF:4.3)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUA0ScXmMY_Po_lpB1IBJFFnzCjpuHg7ReQA6_N_Noag_GsqAlpJSTh_M_FUirmdz5GLPgqnjXu8EjB40lMKxlgLO2MTJdpHx-SELVsOgkIsUdDBYB94YM9PX3-xYSTqXQ4Ithe2yryS_TuzJ6PzqvxiFK3yASz0FLFx2ukR-MUZ9akax61L7X7r_wA4nNAbqNwQkmz4jrt-ObOJC9PE8gYjUNIPrdRCFtNW_X_o%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Metamaterial Absorber",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "eunbi-jang; chanik-kang; haejun-chung"
   },
   {
     "No": "[36]",
@@ -355,13 +380,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Radiative Cooling, Thermal Photonics, Manufacturing, Applications",
     "Title": "Design strategies, manufacturing, and applications of radiative cooling technologies",
-    "Authors": "Joonho Kang†, Changkyun Lee†, Haejun Chung* and Peter Bermel*",
+    "Authors": "[[b]]Joonho Kang†[[/b]], [[b]]Changkyun Lee†[[/b]], [[b]]Haejun Chung*[[/b]] and Peter Bermel*",
     "Journal": "Nanophotonics (2025) (IF:7.5)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUCqXTomRkges0WT36H-ANsQbD79UvbtyyQPnZCTIqAnngZbBDM1IebsYiMg2LxsDNNde_RgOfRcY3tutlLsiWRZWMM0jnOoGube8O1w782kOap809VfAyNMdmlngK5YdB6uTEjkQTmhuElmQqWJljI4p_x7_aOAk26sxxlZwa9pIjy5YovoKVXBD60FszsxufYwS27MNWjuug5xIJtIiSMJU2-d1do_XAUo4is%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Radiative Cooling",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "joonho-kang; changkyun-lee; haejun-chung"
   },
   {
     "No": "[35]",
@@ -369,13 +395,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "Chiral Nanophotonics, Helical Dichroism, Inverse Design",
     "Title": "Inverse Design of Chiral Structures for Giant Helical Dichroism",
-    "Authors": "C.-C. Pan†, M. Bae†, H. Wang, J. Lim, R. R. Unnithan, J. Yang, H. Chung*, S. Kim*",
+    "Authors": "C.-C. Pan†, [[b]]M. Bae†[[/b]], H. Wang, J. Lim, R. R. Unnithan, J. Yang, [[b]]H. Chung*[[/b]], S. Kim*",
     "Journal": "Nanoscale Horizons (2025) (IF:8.0) (Invited)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAUY5QQFil1Xd4ilUlGp6PerDx4Q_VC3XdEW2EwSNaTKRdyLGyk6C_ag0E3z61zmkOW6gdsterOmsgiVISg-LR22pZ1wgSZvWq0-hOJuzXXt8R_TZ-zpAP3t7bJK6h1l_3up9M610idbmRMiYLRUl_gPD19FvrHHStp7lTcUV-0AZuel2E1I7R-mpTiqs-KsPoG4b2LuBGOO2MO8EQch6WkauqvDts5m_U8vGY%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Chiral Nanophotonics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; haejun-chung"
   },
   {
     "No": "[34]",
@@ -383,13 +410,14 @@ window.PUBLICATIONS = [
     "Category": "Integrated Photonics & Quantum",
     "Keywords": "Thin-Film Lithium Niobate, Mode Converter, Photon-pair Generation, Freeform Photonics",
     "Title": "Freeform Thin-Film Lithium Niobate Mode Converter for Photon-pair Generation",
-    "Authors": "C. Kim†, M. Bae†, M. Choi, S. Lee, M. Lee, H. Jung, H. Chung*, H. Kwon*",
+    "Authors": "C. Kim†, [[b]]M. Bae†[[/b]], [[b]]M. Choi[[/b]], [[b]]S. Lee[[/b]], M. Lee, H. Jung, [[b]]H. Chung*[[/b]], [[b]]H. Kwon*[[/b]]",
     "Journal": "Nanophotonics (2025) (IF:7.5)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUBdlAMQ8o0ntISnX16Fc0jh6nE1LlJy84q8fzgUtGronNsWJaXBq1_qkC8MHmb2UcYfhBw0IA5zeLR8K3lm1_QujovGt4UwGiuK91HEPPgpqs9B1lXtunwiQ3XRNR1Sbh9_AhvqghTfQOQVFaUUd0ySYsUdmD-eCe1oCVhIoj-waa8_ld4B7ldBSjbVhu1RFzb66rnGR3zMV5lFN1wLXRxzXhKWd56_gOvw%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Integrated Photonics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; minho-choi; seunghyeon-lee; haejun-chung; hyounghan-kwon"
   },
   {
     "No": "[33]",
@@ -397,13 +425,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "Neural Operator, Fourier Neural Operator, Surrogate Solver, Metasurface, Wavefront Shaping",
     "Title": "Adjoint Method-based Fourier Neural Operator Surrogate Solver for Wavefront Shaping in Tunable Metasurfaces",
-    "Authors": "C. Kang†, J. Seo†, I. Jang, H. Chung*",
+    "Authors": "[[b]]C. Kang†[[/b]], J. Seo†, [[b]]I. Jang[[/b]], [[b]]H. Chung*[[/b]]",
     "Journal": "iScience (2025) (IF:6.107)",
     "Link": "",
     "Image": "https://lh3.googleusercontent.com/sitesv/AA5AbUAJIy21Znbf_W7XaWv62LidUWw73927ACfOKoRRn9nc8Xel-h0M9phQ9NN7Sl2rv9sUplx5r4OnjuFcRIipU8b7_WSG779g-6nj_cQQzfjO_UJhdBGUXT_65W11qYhMdvGUvzfvyObmzx5GimJHBOZsQlr02NJLZdgUqkejJNEInwFXou6AK1Dx%3Dw1280",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Neural Operator / Metasurface",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; ikbeom-jang; haejun-chung"
   },
   {
     "No": "[32]",
@@ -411,13 +440,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "AI, Metalens Imaging, Deep Learning, End-to-End Imaging, Metasurfaces",
     "Title": "Deep-learning-driven end-to-end metalens imaging Metasurfaces",
-    "Authors": "J. Seo†, J. Jo†, J. Kim†, J. Kang†, C. Kang, S. Moon, E. Lee, J. Hong, J. Rho*, H. Chung*",
+    "Authors": "J. Seo†, J. Jo†, J. Kim†, [[b]]J. Kang†[[/b]], [[b]]C. Kang[[/b]], S. Moon, E. Lee, [[b]]J. Hong[[/b]], J. Rho*, [[b]]H. Chung*[[/b]]",
     "Journal": "Advanced Photonics 6(6), 066002 (2024) (IF:20.6, JCR~2.9% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Metalens Imaging / Deep Learning",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "joonho-kang; chanik-kang; jaehyun-hong; haejun-chung"
   },
   {
     "No": "[31]",
@@ -425,13 +455,14 @@ window.PUBLICATIONS = [
     "Category": "Biomedical AI",
     "Keywords": "AI, Medical Imaging, Dermatology, Segmentation, Weak Supervision, Texture Map",
     "Title": "Facial Wrinkle Segmentation for Cosmetic Dermatology: Pretraining with Texture Map-Based Weak Supervision",
-    "Authors": "J. Moon, H. Chung*, I. Jang*",
+    "Authors": "[[b]]J. Moon[[/b]], [[b]]H. Chung*[[/b]], [[b]]I. Jang*[[/b]]",
     "Journal": "[ICPR] The International Conference on Pattern Recognition (2024) (BK21 Conference)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Dermatology Segmentation",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "junho-moon; haejun-chung; ikbeom-jang"
   },
   {
     "No": "[30]",
@@ -439,13 +470,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "AI, Diffusion Model, Inverse Design, Photonic Structures, Physics-guided Optimization",
     "Title": "Physics-guided Optimization of Photonic Structures using Denoising Diffusion Probabilistic Models",
-    "Authors": "D. Seo†, S. Um†, S. Lee, J. Ye*, H. Chung*",
+    "Authors": "D. Seo†, S. Um†, S. Lee, J. Ye*, [[b]]H. Chung*[[/b]]",
     "Journal": "NeurIPS W Machine Learning and the Physical Science (2024)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Inverse Design / Diffusion Model",
-    "Note": "Workshop"
+    "Note": "Workshop",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[29]",
@@ -453,13 +485,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "Neural Operator, Electromagnetic Field Prediction, Wavelength Interpolation, Physics-guided Simulation, Nanophotonics",
     "Title": "Wave Interpolation Neural Operator: Interpolated Prediction of Electric Fields Across Untrained Wavelengths",
-    "Authors": "J. Seo†, C. Kang†, D. Seo, H. Chung*",
+    "Authors": "J. Seo†, [[b]]C. Kang†[[/b]], D. Seo, [[b]]H. Chung*[[/b]]",
     "Journal": "NeurIPS W Data-driven and Differentiable Simulations, Surrogates, and Solvers (2024)",
     "Link": "https://arxiv.org/abs/2408.02971",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "AI / Neural Operator",
-    "Note": "Workshop"
+    "Note": "Workshop",
+    "MemberKeys": "chanik-kang; haejun-chung"
   },
   {
     "No": "[28]",
@@ -467,13 +500,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Photonic Inverse Design, Large-scale Optimization, Computational Photonics, Topology Optimization",
     "Title": "Large-scale photonic inverse design: computational challenges and breakthroughs",
-    "Authors": "C. Kang†, C. Park†, M. Lee+, J. Kang, M. Jang*, H. Chung*",
+    "Authors": "[[b]]C. Kang†[[/b]], C. Park†, M. Lee+, [[b]]J. Kang[[/b]], M. Jang*, [[b]]H. Chung*[[/b]]",
     "Journal": "Nanophotonics (2024) (IF:8.45, JCR~6.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Photonic Inverse Design",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; joonho-kang; haejun-chung"
   },
   {
     "No": "[27]",
@@ -481,13 +515,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "Color Router, CMOS Image Sensor, Nanophotonics, Subwavelength Pixels, High Efficiency",
     "Title": "Towards subwavelength pixels: Nanophotonic color routers for ultra-compact high-efficiency CMOS image sensors",
-    "Authors": "C. Park†, S. Lee†, T. Lee, J. Kang, J. Jeon, C. Park, S. Kim, H. Chung*, M. Jang*",
+    "Authors": "C. Park†, [[b]]S. Lee†[[/b]], T. Lee, [[b]]J. Kang[[/b]], J. Jeon, C. Park, S. Kim, [[b]]H. Chung*[[/b]], M. Jang*",
     "Journal": "Journal of Optics (2024)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Color Router / CMOS Image Sensor",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "seunghyeon-lee; joonho-kang; haejun-chung"
   },
   {
     "No": "[26]",
@@ -495,13 +530,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "Color Router, CMOS Image Sensor, Inverse Design, Interpixel Crosstalk, Nanophotonics",
     "Title": "Inverse Design of Color Routers in CMOS Image Sensors: Toward Minimizing Interpixel",
-    "Authors": "S. Lee†, J. Hong†, J. Kang, J. Park, J. Lim, T. Lee, M. Jang, H. Chung*",
+    "Authors": "[[b]]S. Lee†[[/b]], [[b]]J. Hong†[[/b]], [[b]]J. Kang[[/b]], J. Park, J. Lim, T. Lee, M. Jang, [[b]]H. Chung*[[/b]]",
     "Journal": "Nanophotonics (2024) (IF:8.45, JCR~6.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Color Router / Inverse Design",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "seunghyeon-lee; jaehyun-hong; joonho-kang; haejun-chung"
   },
   {
     "No": "[25]",
@@ -509,13 +545,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "2D Materials, WS2, Chiral Metasurface, Geometric Phase, Inverse Design",
     "Title": "Inverse Designed WS2 Planar Chiral Metasurface with Geometric Phase",
-    "Authors": "J. Jo, S. Lee, M. Bae, D. Nelson, K. Crozier, N. Yu, H. Chung*, S. Kim*",
+    "Authors": "J. Jo, [[b]]S. Lee[[/b]], [[b]]M. Bae[[/b]], D. Nelson, K. Crozier, N. Yu, [[b]]H. Chung*[[/b]], S. Kim*",
     "Journal": "Journal of Optics (2024)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "2D Materials / Chiral Metasurface",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "seunghyeon-lee; munseong-bae; haejun-chung"
   },
   {
     "No": "[24]",
@@ -523,13 +560,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "Adjoint Method, Machine Learning, Inverse Design, Photonic Devices, Computational Optimization",
     "Title": "Adjoint Method in Machine Learning: A Pathway to Efficient Inverse Design of Photonic Devices",
-    "Authors": "C. Kang+, D. Seo+, S. V. Boriskina, H. Chung*",
+    "Authors": "[[b]]C. Kang+[[/b]], D. Seo+, S. V. Boriskina, [[b]]H. Chung*[[/b]]",
     "Journal": "Materials & Design (2024) (IF:8.40)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Adjoint Method / Machine Learning",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; haejun-chung"
   },
   {
     "No": "[23]",
@@ -537,13 +575,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Optical Vortex, Thin-Film Absorption, Inverse Design, Nanophotonics, Absorption Enhancement",
     "Title": "Inverse design and optical vortex manipulation for thin film absorption enhancement",
-    "Authors": "M. Bae, J. Jo, M. Lee, J. Kang, S. V. Boriskina*, H. Chung*",
+    "Authors": "[[b]]M. Bae[[/b]], J. Jo, M. Lee, [[b]]J. Kang[[/b]], S. V. Boriskina*, [[b]]H. Chung*[[/b]]",
     "Journal": "Nanophotonics (2023) (IF:8.45, JCR~6.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Thin-Film Absorption / Optical Vortex",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; joonho-kang; haejun-chung"
   },
   {
     "No": "[22]",
@@ -551,13 +590,14 @@ window.PUBLICATIONS = [
     "Category": "Imaging & Display",
     "Keywords": "Color Splitter, Image Sensor, Freeform Design, Subwavelength Pixels, Nanophotonics",
     "Title": "Design parameters of free-form color splitters for subwavelength pixelated image sensors",
-    "Authors": "S. Kim, C. Park, S. Kim, H. Chung, M. Jang*",
+    "Authors": "S. Kim, C. Park, S. Kim, [[b]]H. Chung[[/b]], M. Jang*",
     "Journal": "iScience (2023) (IF:6.1)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Color Splitter / Image Sensor",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[21]",
@@ -565,13 +605,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Metalens, High-NA, Maskless Lithography, Inverse Design, Nanophotonics",
     "Title": "Inverse Design of High-NA Metalens for Maskless Lithography",
-    "Authors": "C. Kang+, D. Seo+, S. V. Boriskina, H. Chung*",
+    "Authors": "[[b]]C. Kang+[[/b]], D. Seo+, S. V. Boriskina, [[b]]H. Chung*[[/b]]",
     "Journal": "Nanophotonics (2023) (IF:8.45, JCR~6.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Metalens / Maskless Lithography",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "chanik-kang; haejun-chung"
   },
   {
     "No": "[20]",
@@ -579,13 +620,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "FDTD, Dispersive Media, Radiative Cooling, Thermal Photonics, Electromagnetic Simulation",
     "Title": "Modeling dispersive media in finite-difference time-domain method for radiative cooling applications",
-    "Authors": "M. Bae, H. Chung*",
+    "Authors": "[[b]]M. Bae[[/b]], [[b]]H. Chung*[[/b]]",
     "Journal": "IEEE Access (2022) (IF:3.37, JCR~34.2% in Eng.)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Radiative Cooling / FDTD",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "munseong-bae; haejun-chung"
   },
   {
     "No": "[19]",
@@ -593,13 +635,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Electromagnetic Transparency, Short-Wavelength Infrared, Angle-Independent Response, Nanophotonics",
     "Title": "Numerical Demonstration of Angle-Independent Electromagnetic Transparency in Short-Wavelength Infrared Regime",
-    "Authors": "J. Park, S. Hong, H. Chung*",
+    "Authors": "J. Park, S. Hong, [[b]]H. Chung*[[/b]]",
     "Journal": "IEEE Access (2022) (IF:3.37, JCR~34.2% in Eng.)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Electromagnetic Transparency / SWIR",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[18]",
@@ -607,13 +650,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Nano-LED, Directional Emission, Inverse Design, Computational Limit, Nanophotonics",
     "Title": "Computational upper-limit of directional light emission in nano-LED via inverse design",
-    "Authors": "H. Chung*",
+    "Authors": "[[b]]H. Chung*[[/b]]",
     "Journal": "Optics Express 30(6) (2022) (IF:3.67, JCR~19.1% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Nano-LED / Directional Emission",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[17]",
@@ -621,13 +665,14 @@ window.PUBLICATIONS = [
     "Category": "Integrated Photonics & Quantum",
     "Keywords": "Waveguide Biosensor, Inverse Design, Biomolecule Detection, Single-Frequency Detection, Nanophotonics",
     "Title": "Inverse-designed waveguide-based biosensor for high-sensitivity, single-frequency detection of biomolecules",
-    "Authors": "H. Chung*, J. Park, S. V. Boriskina*",
+    "Authors": "[[b]]H. Chung*[[/b]], J. Park, S. V. Boriskina*",
     "Journal": "Nanophotonics (2022) (IF:8.45, JCR~6.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Waveguide Biosensor",
-    "Note": "Won a paper award in KIEES conference"
+    "Note": "Won a paper award in KIEES conference",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[16]",
@@ -635,13 +680,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Freeform Optimization, Nanophotonic Devices, Deep Learning, Classical Optimization, Inverse Design",
     "Title": "Free-form optimization of nanophotonic devices: from classical methods to deep learning",
-    "Authors": "J. Park, S. Kim, D. W. Nam, H. Chung*, C. Y. Park*, and M. S. Jang*",
+    "Authors": "J. Park, S. Kim, D. W. Nam, [[b]]H. Chung*[[/b]], C. Y. Park*, and M. S. Jang*",
     "Journal": "Nanophotonics (2022) (IF:8.45, JCR~6.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Freeform Optimization / Nanophotonic Devices",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[15]",
@@ -649,13 +695,14 @@ window.PUBLICATIONS = [
     "Category": "Integrated Photonics & Quantum",
     "Keywords": "Diffractive Biosensor, Inverse Design, Reporter Cleavage Detection, Single-Frequency Detection",
     "Title": "Inverse design of a single-frequency diffractive biosensor based on the reporter cleavage detection mechanism",
-    "Authors": "H. Chung*, S. V. Boriskina*",
+    "Authors": "[[b]]H. Chung*[[/b]], S. V. Boriskina*",
     "Journal": "Optics Express 29(7) (2021) (IF:3.67, JCR~19.1% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Diffractive Biosensor",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[14]",
@@ -663,13 +710,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "Porous Silicon Sensor, Optical Biosensing, Cleavage Detection, Sensor Sensitivity",
     "Title": "High contrast cleavage detection for enhancing porous silicon sensor sensitivity",
-    "Authors": "R. Layouni, M. Dubrovsky, M. Bao, H. Chung, K. Du, S. V. Boriskina, S. M. Weiss, and D. Vermeulen",
+    "Authors": "R. Layouni, M. Dubrovsky, M. Bao, [[b]]H. Chung[[/b]], K. Du, S. V. Boriskina, S. M. Weiss, and D. Vermeulen",
     "Journal": "Optics Express 29(1) (2021) (IF:3.67, JCR~19.1% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Porous Silicon Sensor",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[13]",
@@ -677,13 +725,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Tunable Metasurface, Inverse Design, Beam Steering, Angular Steering, Switching Efficiency",
     "Title": "Tunable metasurface inverse design for 80% switching efficiencies and 144° angular steering",
-    "Authors": "H. Chung*, O. Miller*",
+    "Authors": "[[b]]H. Chung*[[/b]], O. Miller*",
     "Journal": "ACS Photonics 7(8), 2236–2243 (2020) (IF:6.86, JCR~8.7% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Tunable Metasurface / Beam Steering",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[12]",
@@ -691,13 +740,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Metalens, High-NA, Achromatic Metalens, Inverse Design, Broadband Optics",
     "Title": "High-NA Achromatic Metalenses by Inverse Design",
-    "Authors": "H. Chung*, O. Miller*",
+    "Authors": "[[b]]H. Chung*[[/b]], O. Miller*",
     "Journal": "Optics Express 28(5), 6945-6965 (2020) (IF:3.67, JCR~19.1% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Achromatic Metalens",
-    "Note": "Top-cited paper in Optics Express; highly cited paper (<1%) in Physics area by Clarivate"
+    "Note": "Top-cited paper in Optics Express; highly cited paper (<1%) in Physics area by Clarivate",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[11]",
@@ -705,13 +755,14 @@ window.PUBLICATIONS = [
     "Category": "Nanophotonics & Inverse Design",
     "Keywords": "Electromagnetic Waves, Free-Space Concentration, Computational Bounds, Nanophotonics",
     "Title": "Maximal Free-Space Concentration of Electromagnetic Waves",
-    "Authors": "H. Shim, H. Chung, O. Miller",
+    "Authors": "H. Shim, [[b]]H. Chung[[/b]], O. Miller",
     "Journal": "Physical Review Applied 14(1), 014007 (2020) (IF:4.53, JCR~17.0% in Physics Applied)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Electromagnetic Wave Concentration",
-    "Note": "Editors’ Suggestion"
+    "Note": "Editors’ Suggestion",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[10]",
@@ -719,13 +770,14 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "Gold Nanorod, Polymer Micelles, Ultrasound Contrast, Laser-Induced CO2 Generation, Nanomaterials",
     "Title": "Laser-Induced CO2 Generation from Gold Nanorod-Containing Poly(propylene carbonate)-Based Block Polymer Micelles for Ultrasound Contrast Enhancement",
-    "Authors": "J. Lee, S. Jo, H. Chung, W. Um, R. Chandrasekar, Y. Choi, V. M. Shalaev, Y.-Y. Won",
+    "Authors": "J. Lee, S. Jo, [[b]]H. Chung[[/b]], W. Um, R. Chandrasekar, Y. Choi, V. M. Shalaev, Y.-Y. Won",
     "Journal": "ACS Applied Materials & Interfaces 10(31), 26084-26098 (2018)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Gold Nanorod / Ultrasound Contrast",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[9]",
@@ -733,13 +785,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Perovskite/Silicon Tandem Photovoltaics, Bifacial Tandem Cells, Optical Modeling, Solar Cells",
     "Title": "Modeling and designing multilayer 2D perovskite/silicon bifacial tandem photovoltaics for high efficiencies and long-term stability",
-    "Authors": "H. Chung, X. Sun, R. Singh, L. Kumar, M. A. Alam, P. Bermel",
+    "Authors": "[[b]]H. Chung[[/b]], X. Sun, R. Singh, L. Kumar, M. A. Alam, P. Bermel",
     "Journal": "Optics Express 25(8), A311-A322 (2017) (IF:3.15, JCR~14.6% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Perovskite/Silicon Tandem Photovoltaics",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[8]",
@@ -747,13 +800,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Thermophotovoltaics, Thermal Radiation Transfer, Maxwell’s Fish-Eye Lens, Collimated Radiation",
     "Title": "Collimated Thermal Radiation Transfer Via Half Maxwell’s Fish-Eye Lens for Thermophotovoltaics",
-    "Authors": "H. Chung, Z. Zhou, P. Bermel",
+    "Authors": "[[b]]H. Chung[[/b]], Z. Zhou, P. Bermel",
     "Journal": "Applied Physics Letters 110(20), 201111 (2017)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Thermophotovoltaics / Thermal Radiation",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[7]",
@@ -761,13 +815,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Light Trapping, Thin-Film Solar Cells, CdZnTe/Si Tandem Cells, Hybrid Dielectric Design",
     "Title": "Hybrid dielectric light trapping designs for thin-film CdZnTe/Si tandem cells",
-    "Authors": "H. Chung, C. Zhou, X. T. Tee, K.-Y. Jung, and P. Bermel",
+    "Authors": "[[b]]H. Chung[[/b]], C. Zhou, X. T. Tee, K.-Y. Jung, and P. Bermel",
     "Journal": "Optics Express 24(14) (2016) (IF:3.49, JCR~10.5% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Light Trapping / Tandem Solar Cells",
-    "Note": "Featured in Light Trapping for Photovoltaics section"
+    "Note": "Featured in Light Trapping for Photovoltaics section",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[6]",
@@ -775,13 +830,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Perovskite/Silicon Tandem Cells, Optical Design, Solar Cells, Photovoltaics",
     "Title": "Optical approaches to improving perovskite/Si tandem cells",
-    "Authors": "H. Chung, X. Sun and P. Bermel",
+    "Authors": "[[b]]H. Chung[[/b]], X. Sun and P. Bermel",
     "Journal": "MRS Advances 1(14) (2016)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Perovskite/Si Tandem Cells",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[5]",
@@ -789,13 +845,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Nanoplasmonics, Thin-Film Silicon Solar Cells, Parasitic Absorption, FDTD, Flux Plane Simulation",
     "Title": "Flexible flux plane simulations of parasitic absorption in nanoplasmonic thin-film silicon solar cells",
-    "Authors": "H. Chung, K.-Y. Jung and P. Bermel",
+    "Authors": "[[b]]H. Chung[[/b]], K.-Y. Jung and P. Bermel",
     "Journal": "Optical Materials Express 5(9) (2015) (IF:2.92, JCR~15.9% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Nanoplasmonic Solar Cells / FDTD",
-    "Note": "Published in a Plasmonics special issue"
+    "Note": "Published in a Plasmonics special issue",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[4]",
@@ -803,13 +860,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "CdZnTe/Si Tandem Solar Cells, Photovoltaics, Optical Design, Tandem Junction",
     "Title": "Design of CdZnTe and Crystalline Silicon Tandem Junction Solar Cells",
-    "Authors": "C. Zhou, H. Chung, X. Wang and P. Bermel",
+    "Authors": "C. Zhou, [[b]]H. Chung[[/b]], X. Wang and P. Bermel",
     "Journal": "IEEE Journal of Photovoltaics 6(1) (2015) (IF:3.00, JCR~6.3% in Physics, Applied)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "CdZnTe/Si Tandem Solar Cells",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[3]",
@@ -817,13 +875,14 @@ window.PUBLICATIONS = [
     "Category": "AI & Computational Design",
     "Keywords": "FDTD, Dispersive Media, Rational Function, Particle Swarm Optimization, Electromagnetic Simulation",
     "Title": "Accurate FDTD modeling for dispersive media using rational function and particle swarm optimisation",
-    "Authors": "H. Chung, S. Ha, J. Cho and K.-Y. Jung",
+    "Authors": "[[b]]H. Chung[[/b]], S. Ha, J. Cho and K.-Y. Jung",
     "Journal": "International Journal of Electronics 102(7) (2015)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "FDTD / Dispersive Media",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[2]",
@@ -831,13 +890,14 @@ window.PUBLICATIONS = [
     "Category": "Energy & Thermal Photonics",
     "Keywords": "Time-Domain Simulation, Tandem Silicon Solar Cells, Light Trapping, Rational Function, FDTD",
     "Title": "Time domain simulation of tandem silicon solar cells with optimal textured light trapping enabled by the quadratic complex rational function",
-    "Authors": "H. Chung, K.-Y. Jung, X. T. Tee and P. Bermel",
+    "Authors": "[[b]]H. Chung[[/b]], K.-Y. Jung, X. T. Tee and P. Bermel",
     "Journal": "Optics Express 22(103) (2014) (IF:3.55, JCR~5.0% in Optics)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Tandem Silicon Solar Cells / Light Trapping",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   },
   {
     "No": "[1]",
@@ -845,12 +905,13 @@ window.PUBLICATIONS = [
     "Category": "Materials & Light-Matter Interaction",
     "Keywords": "Dispersive FDTD, Concrete Materials, Electromagnetic Modeling, Material Dispersion",
     "Title": "Dispersive FDTD modeling for concrete materials",
-    "Authors": "H. Chung, J. Cho, S. Ha, S. Ju and K.-Y. Jung",
+    "Authors": "[[b]]H. Chung[[/b]], J. Cho, S. Ha, S. Ju and K.-Y. Jung",
     "Journal": "ETRI Journal 35(5) (2013)",
     "Link": "",
     "Image": "",
     "Source": "https://sites.google.com/view/eidl/publication",
     "OldCategory": "Dispersive FDTD / Concrete Materials",
-    "Note": ""
+    "Note": "",
+    "MemberKeys": "haejun-chung"
   }
 ];
